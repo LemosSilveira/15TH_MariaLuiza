@@ -5,19 +5,17 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0%;
+    margin: 0%;
 
 }
 
-.bg-img {
-    position: absolute;    /* rola junto com a página */
-    top: 0;
-    left: 0;
-    width: 100vw;          /* largura vira altura pois está rotacionada */
-    height: 100vh;
+body{
 
-    object-fit: cover;     /* cobre toda a tela sem distorcer */
-    transform-origin: top left;
-    z-index: -1;           /* fica atrás do conteúdo */
+    background-image: url(assets/background.png);
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
 }
 .text-1{
     display: flex;
@@ -27,23 +25,54 @@ main{
     text-align: center;
     width: 100%;
 
-    
+
 
 }
 .nav-bar{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.cont-tree{
+    margin-left: auto;
+    padding: 0;
+    margin: 0;
+   
+    display: flex;
+    align-items: end;
+}
+
+.cont-mono{
+    margin: 0 auto  ;
+    padding: 0;
+    margin: 0;
+}
+
+.startnav{
+border: 1px solid;
 
 }
+
+.purple-tree0{
+
+    display: block;   /* remove espaço invisível */
+    width: 100%;      /* ocupa a largura total */
+    height: auto;     /* mantém proporção */
+    margin: 0;        /* sem margens */
+    padding: 0;       /* sem espaçamento interno */
+}
+
 .primeiroTexto{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
     padding-left: 10%;
     padding-right: 10%;
-
+    font-size: 23px;
     color: #6548AC ;
 
 }
@@ -53,7 +82,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     
     width: 100%;
 
@@ -91,7 +120,7 @@ main{
      display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     
     width: 100%;
 
@@ -99,7 +128,7 @@ main{
 
 .infoInvite{
     padding-right: 8%;
-    width: 250px;
+    width: 300px;
 
 }
 
@@ -119,5 +148,27 @@ main{
 .Icon{
     width: 68px;
     height: auto;
+
+}
+
+.purple-tree0{
+    width: 300px;
+
+}
+
+.bluetree{
+    width: 290px;
+
+}
+
+.FooterImg{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.footerimg1{
+    width: 500px;
 
 }
