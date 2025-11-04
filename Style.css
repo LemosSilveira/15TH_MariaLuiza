@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bg-img {
+    position: absolute;    /* rola junto com a página */
+    top: 0;
+    left: 0;
+    width: 100vh;          /* largura vira altura pois está rotacionada */
+    height: 100vw;
+    object-fit: cover;     /* cobre toda a tela sem distorcer */
+    transform-origin: top left;
+    z-index: -1;           /* fica atrás do conteúdo */
+}
+.text-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+    
+
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.primeiroTexto{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10%;
+    padding-right: 10%;
+
+    color: #6548AC ;
+
+}
+
+.image{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    
+    width: 100%;
+
+}
+
+.image1{
+    width: 200px;
+    height: auto;
+    padding-right: 5%;
+
+}
+
+.text2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    
+    width: 100%;
+
+}
+
+.segundoTexto{
+    font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: italic;
+    max-width: 60%;
+  color: #6548AC ;
+
+  padding-left: 5%;
+    padding-top: 5%;
+}
+
+.info{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    
+    width: 100%;
+
+}
+
+.infoInvite{
+    padding-right: 8%;
+    width: 250px;
+
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    padding-top: 15%;
+    margin-left: 5% ;
+    margin-right: 5%;
+
+}
+
+.Icon{
+    width: 68px;
+    height: auto;
+
+}
