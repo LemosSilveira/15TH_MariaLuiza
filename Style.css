@@ -12,8 +12,9 @@ main{
     position: absolute;    /* rola junto com a página */
     top: 0;
     left: 0;
-    width: 100vh;          /* largura vira altura pois está rotacionada */
-    height: 100vw;
+    width: 100vw;          /* largura vira altura pois está rotacionada */
+    height: 100vh;
+
     object-fit: cover;     /* cobre toda a tela sem distorcer */
     transform-origin: top left;
     z-index: -1;           /* fica atrás do conteúdo */
